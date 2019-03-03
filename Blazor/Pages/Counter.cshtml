@@ -1,4 +1,15 @@
-﻿@page "/counter"
+﻿@*Each time the Click me button is selected:
+
+    The onclick event is fired.
+    The IncrementCount method is called.
+    The currentCount is incremented.
+    The component is rendered again.
+    
+    
+    *@
+
+
+@page "/counter"
 
 <h1>Counter</h1>
 
@@ -9,8 +20,10 @@
 @functions {
     int currentCount = 0;
 
+    [Parameter] int IncrementAmount { get; set;} = 1;
+
     void IncrementCount()
     {
-        currentCount++;
+        currentCount += IncrementAmount;
     }
 }

@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.28621.142
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Blazor", "Blazor\Blazor.csproj", "{93B93EA5-B14F-4C05-942F-C0EBE04E2A10}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Blazor", "Blazor\Blazor.csproj", "{93B93EA5-B14F-4C05-942F-C0EBE04E2A10}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RazorComponents.Server", "RazorComponents\RazorComponents.Server\RazorComponents.Server.csproj", "{A235BB45-7B3E-4751-A56A-0C7E756C3D95}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RazorComponents.App", "RazorComponents\RazorComponents.App\RazorComponents.App.csproj", "{34BB79D7-000E-469E-B64C-44091A754A32}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{93B93EA5-B14F-4C05-942F-C0EBE04E2A10}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{93B93EA5-B14F-4C05-942F-C0EBE04E2A10}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{93B93EA5-B14F-4C05-942F-C0EBE04E2A10}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A235BB45-7B3E-4751-A56A-0C7E756C3D95}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A235BB45-7B3E-4751-A56A-0C7E756C3D95}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A235BB45-7B3E-4751-A56A-0C7E756C3D95}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A235BB45-7B3E-4751-A56A-0C7E756C3D95}.Release|Any CPU.Build.0 = Release|Any CPU
+		{34BB79D7-000E-469E-B64C-44091A754A32}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{34BB79D7-000E-469E-B64C-44091A754A32}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{34BB79D7-000E-469E-B64C-44091A754A32}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{34BB79D7-000E-469E-B64C-44091A754A32}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
